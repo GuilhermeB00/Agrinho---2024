@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgrinhoBooks - Sua Livraria Online</title>
+<style>
+  body { 
+              font-family: 'Arial', sans-serif;
+              margin: 0; padding: 0;
+             }
+  header { background-color: #005b99; color: white; text-align: center; padding: 10px; }
+  nav { display: flex; justify-content: space-around; background-color: #333; padding: 10px; }
+  nav a { 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 25px; 
+    background-color: #005b99; 
+    transition: background-color 0.3s, color 0.3s;
+  }
+  nav a:hover { 
+    background-color: #ddd; 
+    color: black; 
+  }
+  .container { padding: 20px; }
+  .carousel-item img { height: 300px; width: auto; display: block; margin: auto; }
+  footer { background-color: #333; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
+</style>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>Bem-vindo à AgrinhoBooks</h1>
+  <p>Encontre os melhores livros no melhor site!</p>
+</header>
+
+<nav>
+  <a href="maisvendidos.html">Mais Vendidos</a>
+  <a href="contato.html">Contato</a>
+  <a href="perfil.html">Perfil</a>
+</nav>
+<nav>
+ <a href="avaliações.html">Avaliações</a>
+ <a href="comunidade.html">Comunidade</a>
+ <a href="parcerias.html">Parcerias</a>
+</nav>
+
+<div class="container">
+  <h2 id="financas">Finanças</h2>
+  <div id="carouselFinancas" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aNxmlpNNWeDjI1F31IzQwzQboI0YZ32E5Ti0HPpk4GwKM8qQwluUqKc&s=10" alt="O Poder do Hábito">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDihqlhI_NGrxGAzK3VCZ3uJW9R2cAsojDNt27ugr6FsUalMbM5r3UUNk&s=10" alt="Pai rico Pai pobre">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlqSzBSACBtSqSKUq1Y0x04yX6fkjuDnF3svd1aIVurO7FWOQeY_ZTNclC&s=10" alt="Os Segredos da Mente Milionária">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFldJ28u8u_TEsFbT_RK291TsynxJ9EfQHOnVUTHn7xc-X5LXUx2tqVAV&s=10" alt="A Riqueza da Vida Simples">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTff9PrfXpyxUG0ejWz786cK1CbrpFIXl5luqNL42UKhzHKekT16WVqq5KZ&s=10" alt="Rápido e Devagar: Duas Formas de Pensar">
+      </div>
+      <div class="carousel-item">
+        <img src="https://m.media-amazon.com/images/I/81xHAza7yaL._SY466_.jpg" alt="Como Organizar Sua Vida Financeira">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXx_XGwFP4a3fPRkp3E9T7Rh4AOWya2BfgYdaI0rlCv9z8JVTv8iLNuMg&s=10" alt="Pense e Fique Rico">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_KvAImcEYitZ2I7LQcedW6Z52ympg1uw28DZR06t0hSBhKCZUW85xQo&s=10" alt="Investidor de Bom Senso">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwpLKXYBUt1JgkyDarashjJqvO_SL6G3a4LOQkWm7RTFU76-RJEcxKM8&s=10" alt="A Ciência de Ficar Rico">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeRDmlJXskpKxgDW9enV4Y3BPqtLlUg30TxXpBOkS4MUquSVy66RTQOLjr&s=10" alt="Me Poupe">
+      </div>
+      <div class="carousel-item">
+        <img src="https://m.media-amazon.com/images/I/81ehvI03NYS._AC_UF1000,1000_QL80_.jpg" alt="A Psicologia Financeira">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KPieME7oX1Ow-Ep9sxAGxtdnVrEFZ-9tkeEnremh4Qw0cgAaoMuIdLo&s=10" alt="O Investidor Inteligente">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN9K4aHZ0IvSP3YWiY452yhn8gHR0ae5Z6DdTqq7UgCNrWK2l6YykEuqI&s=10" alt="Finanças Para Autônomos">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselFinancas" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselFinancas" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <h2 id="auto-desenvolvimento">Auto-Desenvolvimento</h2>
+  <div id="carouselAutoDesenvolvimento" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_zuib2oYKMMfUXTYlsozUiaHXQAajvqb4MnnTOBJxOcAFjFK9kU8xh26X&s=10" alt="A Arte da Guerra">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSps-Vg_sqlTXyarJiEJNZC3o7lUMjixzyE0vNQhrecSyfjtQGIeolj-Wr-&s=10" alt="Como Fazer Amigos e Influenciar Pessoas">
+      </div>
+      <div class="carousel-item">
+        <img src="https://m.media-amazon.com/images/I/617iS--XOQL._AC_UF1000,1000_QL80_.jpg" alt="As 48 Leis do Poder">
+      </div>
+      <div class="carousel-item">
+        <img src="https://m.media-amazon.com/images/I/71Ils+Co9fL._AC_UF1000,1000_QL80_.jpg" alt="MindSet: A Nova Psicologia do Sucesso">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQfWL4e_kYmzykCqx03yUptg0zUVLRwbqqsqJyDc5INEswYAeogXaRhdc&s=10" alt="A Arte da Estratégia">
+      </div>
+      <div class="carousel-item">
+        <img src="https://m.media-amazon.com/images/I/61+gYOoYymL._SY466_.jpg" alt="A Vida Secreta das Árvores">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4p9gWIL_XkSNcYAAKyBIWIBEt2rWjJCwo_sj38_P3h1FuCpzSL_9MStg&s=10" alt="Como Convercer Alguém 90 Segundos">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRbFoqd3i5N1v8VVF2EbFCZAQJby61C2OQmN846TggPGPXBM_3Et-vmpCI&s=10" alt="Gatilhos Mentais">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgH7IzSmdNKkF-IUX9YMs8NWy-RN0jc1WygyKQ9z7isNyObRIhiAY5qcU&s=10" alt="Arrume Sua Cama">
+      </div>
+      <div class="carousel-item">
+        <img src="https://m.media-amazon.com/images/I/81eOYoxFp4L._AC_UF1000,1000_QL80_.jpg" alt="Nunca é Hora de Parar">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa95X3jYdEOGBh1KdR0zCxCTGJKlJUuLRPN_TdgA2i-jhhwYLPeyUkEdQ&s=10" alt="O Despertar da Consciência">
+      </div>
+      <div class="carousel-item">
+        <img src="https://m.media-amazon.com/images/I/717diaFhKoL._AC_UF1000,1000_QL80_.jpg" alt="Poder e Manipulação">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFYdvflGEB7eidGZzNe0OgdkqXI4UOnkwM7B8o_mJd5JCo_94WdzY7qvw&s=10" alt="Mentes Maquiavélicas">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselAutoDesenvolvimento" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselAutoDesenvolvimento" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+<h2 id="Ficção">Ficção</h2>
+<div id="carouselFicção" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeNz8RNUH6hRs6IOmgczXGEMVQ9RQ1_2LJZu5KJ5IQqlM57mBw91UndM3L&s=10" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEjaetH2J1HQhcVM33SA_2v2rmZ6rQOM3V-GPjPth6B2r-XE9hZHBdGeg&s=10" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWwZBzyABseg192dDnvIl1vTq8IHGMCRsCqJz94zAqwEirYZLcm02L70E&s=10" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-eQYUjWIR52CliFKYR_YBinlWoGwC3PFU2d2bZnoaW8hZPXtBJ69OubH1&s=10" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/91+1SUO3vUL._AC_UF1000,1000_QL80_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScJsDaXNMoAnCF-B3zldp-MJZgjHICmH8gJRasZL-e1cy5iTUbUbchKPs&s=10" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjPGclwJJfXn8cWWNSRaJ2iQb_uW4TFOSiBR7Z8zF9aOtWDRzc6H3wM62X&s=10" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3UHx_XlZyCEvLqm6IctIUr1Ni-wnqYDlkLyiNdKsWmuQWLy03E0MkUJG&s=10" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWxpA08sp_HF0KdpBazMM1W3G92Z9nugRHOHgIUcYXXT0dahgeatdqcf-M&s=10" alt="">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselFicção" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselFicção" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+<h2 id="Natureza">Natureza</h2>
+ <div id="carouselNatureza" class="carousel slide" data-ride="carousel">
+   <div class="carousel-inner">
+     <div class="carousel-item active"> 
+      <img src="https://m.media-amazon.com/images/I/516BpTNyfNL._SX342_SY445_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/51oTdms8yWL._SY445_SX342_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/51CxfOV8k2L._SY445_SX342_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/410Vkxt6YZL._SX342_SY445_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/6128V53Nt7L._SX342_SY445_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/51qDFEQLtmL._SY445_SX342_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/519b+c7YMvL._SY445_SX342_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/51+1DCpWtQL._SY445_SX342_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/41BNvEkiebL._SY445_SX342_.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/910ocuvJBaL._SY466_.jpg" alt="">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselNatureza" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselNatureza" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<footer>
+  <p>© 2024 AgrinhoBooks, todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
