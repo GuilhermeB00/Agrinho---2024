@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgrinhoBooks - Mais Vendidos</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .carousel-container {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+        .carousel-title {
+            background-color: #005b99;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin: 0;
+            width: 100%;
+        }
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            width: 100%;
+            padding: 10px;
+            flex-grow: 1;
+        }
+        .carousel img {
+            flex: 0 0 auto;
+            width: 150px;
+            height: 150px;
+            margin: 0 10px;
+        }
+        .carousel .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10px;
+        }
+        .carousel .sales {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        footer {
+            text-align: center;
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            color: white;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <h2 class="carousel-title">Mais Vendidos 2024</h2>
+        <div class="carousel">
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aNxmlpNNWeDjI1F31IzQwzQboI0YZ32E5Ti0HPpk4GwKM8qQwluUqKc&s=10" alt="O Poder do Hábito">
+                <div class="sales">5,7mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwpLKXYBUt1JgkyDarashjJqvO_SL6G3a4LOQkWm7RTFU76-RJEcxKM8&s=10" alt="A Ciência de Ficar Rico">
+                <div class="sales">7mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://m.media-amazon.com/images/I/71Mhl0pI8XL._AC_UF1000,1000_QL80_.jpg" alt="Como Organizar Sua Vida Financeira">
+                <div class="sales">3,2mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFldJ28u8u_TEsFbT_RK291TsynxJ9EfQHOnVUTHn7xc-X5LXUx2tqVAV&s=10" alt="A Riqueza da Vida Simples">
+                <div class="sales">9,2mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://m.media-amazon.com/images/I/81eOYoxFp4L._AC_UF1000,1000_QL80_.jpg" alt="Nunca é Hora de Parar">
+                <div class="sales">1,5mil vendas</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-container">
+        <h2 class="carousel-title">Mais Vendidos 2023</h2>
+        <div class="carousel">
+            <div class="item">
+                <img src="https://m.media-amazon.com/images/I/617iS--XOQL._AC_UF1000,1000_QL80_.jpg" alt="As 48 Leis do Poder">
+                <div class="sales">2mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_zuib2oYKMMfUXTYlsozUiaHXQAajvqb4MnnTOBJxOcAFjFK9kU8xh26X&s=10" alt="A Arte da Guerra">
+                <div class="sales">9mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSps-Vg_sqlTXyarJiEJNZC3o7lUMjixzyE0vNQhrecSyfjtQGIeolj-Wr-&s=10" alt="Como Fazer Amigos e Influenciar Pessoas">
+                <div class="sales">1,2 mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4p9gWIL_XkSNcYAAKyBIWIBEt2rWjJCwo_sj38_P3h1FuCpzSL_9MStg&s=10" alt="Como Convercer Alguém 90 Segundos">
+                <div class="sales">2,1 mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFYdvflGEB7eidGZzNe0OgdkqXI4UOnkwM7B8o_mJd5JCo_94WdzY7qvw&s=10" alt="Mentes Maquiavélicas">
+                <div class="sales">3,1 mil
+ vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://m.media-amazon.com/images/I/717diaFhKoL._AC_UF1000,1000_QL80_.jpg" alt="Poder e Manipulação">
+                <div class="sales">15,5mil vendas</div>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsC-x2Aq303oXsyaw2y7O08p5WquZJ12GBftgs78enf4TXt2lR-bUzqjqz&s=10" alt="Título do Livro">
+                <div class="sales">17mil vendas</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 AgrinhoBooks, todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
