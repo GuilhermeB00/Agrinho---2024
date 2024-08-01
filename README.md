@@ -6,7 +6,9 @@ Bem-vindo ao site da livraria AgrinhoBooks! O site da AgrinhoBooks foi criado pa
 
 Página Inicial: A partir da página inicial, você pode acessar todas as seções do site através do menu principal.
 
-Catálogo: Navegue pelo catálogo para explorar nossos livros por categorias.
+Catálogo: Navegue pelo catálogo (que se encontra na tela inicial) para explorar nossos livros por categorias.
 
 Perfil: Quer saber quem eu sou? Acesse a aba "Perfil" e veja minhas informações, como Instagram, Email,etc.
 
+
+!!!Aproveite!!!
