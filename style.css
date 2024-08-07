@@ -241,3 +241,153 @@ footer {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+/* estilo do cabeçalho */
+header {
+    background-color: #005b99; /* Cor alterada para azul */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+/* estilo do menu */
+nav {
+    text-align: center;
+    background-color: #303f9f;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+/* estilo do conteúdo principal */
+.container {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 30px;
+}
+.section h2 {
+    color: #005b99; /* alterei a cor para azul */
+    border-bottom: 2px solid #005b99; /* Cor alterada para azul */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.section p {
+    line-height: 1.6;
+}
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.partner {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+/* estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+footer p {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.profile-header {
+    text-align: center;
+}
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.profile-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+.profile-header p {
+    font-size: 16px;
+    color: #777;
+    margin: 5px 0;
+}
+.section {
+    margin: 20px 0;
+}
+.section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+.reviews {
+    list-style-type: none;
+    padding: 0;
+}
+.reviews li {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.reviews li h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+.reviews li p {
+    font-size: 14px;
+    color: #555;
+}
+.contact {
+    text-align: center;
+}
+.contact a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
