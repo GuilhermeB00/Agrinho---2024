@@ -19,4 +19,43 @@ color: black;
 .container { padding: 20px; }
 .carousel-item img { height: 300px; width: auto; display: block; margin: auto; }
 footer { background-color: #333; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
-</body>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #005b99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.content {
+    padding: 20px;
+}
+.review {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.review .author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.review .date {
+    color: #666;
+    font-size: 0.8em;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
